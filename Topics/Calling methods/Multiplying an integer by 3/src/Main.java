@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    // Method to be created here that multiplies a given integer by 3
+    static int multiply(int n){
+        return n * 3;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input from user using scanner
+        int n = scanner.nextInt();
+
+        // Call the multiply method here with 'n' as argument and print result
+        System.out.println(multiply(n));
+    }
+}
